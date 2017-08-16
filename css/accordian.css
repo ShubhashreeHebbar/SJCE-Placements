@@ -1,0 +1,73 @@
+.acc-main {
+    transition: 0.4s !important;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.acc-head {
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+.acc-head-title {
+    font-weight: 800;
+    font-size: 1.3em;
+    line-height: 1.6;
+    top: 50%;
+    padding: 5px;
+    vertical-align: center;
+}
+
+.btns {
+    float: right;
+    display: block;
+}
+
+.comp-rgstr {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 7px;
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.4s !important;
+}
+
+.acc-btn {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 5px 7px;
+    float: left;
+    text-align: left;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.4s !important;
+}
+
+.acc-btn:hover,
+.acc-btn.active {
+    background-color: #eee;
+}
+
+.acc-btn:after {
+    content: "\25BC";
+}
+
+.acc-btn.active:after {
+    content: "\25B2";
+}
+
+.acc-body {
+    padding: 0px 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

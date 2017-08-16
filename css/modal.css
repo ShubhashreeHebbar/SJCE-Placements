@@ -1,0 +1,123 @@
+.tab-custom-item {
+    width: 25%;
+    text-align: center;
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.loginbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #00a878;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.containerx {
+    padding: 16px;
+    display: block;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.tab-active {
+    display: block;
+}
+
+.tabhead-active {
+    border-bottom: 2px solid #fe5e41;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 40px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border-radius: 0px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 5px 0 #303036;
+    -moz-box-shadow: 0 0 5px 0 #303036;
+    box-shadow: 0 0 5px 0 #303036;
+    width: 95%;
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@media screen and (min-width:768px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto 15% auto;
+        border-radius: 0px;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0 0 5px 0 #303036;
+        -moz-box-shadow: 0 0 5px 0 #303036;
+        box-shadow: 0 0 5px 0 #303036;
+        width: 50%;
+    }
+    .tab-custom-item {
+        padding: 15px !important;
+        margin: 0px;
+    }
+}

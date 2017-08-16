@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="SriHarsha S">
+
+    <title>SJCE Placements - Login/Register</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/base_styles.css" rel="stylesheet">
+
+    <!-- Custom page CSS -->
+
+    <link href="css/form.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" class="index">
+    <div id="mainPanel">
+        <header>
+            <div class="head-content">
+                <h4 class="white-font">JSS Mahavidyapeetha</h4>
+                <h2 class="white-font">Sri Jayachamarajendra College of Engineering</h2>
+                <h3 class="yellow-font">A Commitment to Technical Education</h3>
+                <hr style="width:40%;">
+                <h1 class="white-font">PLacement &amp; Training Cell</h1>
+            </div>
+        </header>
+        <!-- Navigation -->
+        <nav id="mainNav" class="navbar navbar-default navbar-custom">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="myHeader">
+                        <a class="navbar-brand" style="cursor:normal;">Home</a>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-cllps">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-active">
+                            <a style="width:auto;cursor:normal;">SriHarsha S</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="main_container" class="container">
+            <div class="content_panel">
+                <div class="panel-header-blue">
+                    <h2>Write to us</h2>
+                </div>
+                <div style="padding:20px;overflow:hidden;display:block;">
+                    <form class="form-main" action="php/additem.php">
+                        <input type="hidden" name="what" value="feedback" />
+                        <div class="form-item">
+                            <div class="form-left">
+                                <label><big>Full Name:</big></label>
+                            </div>
+                            <div class="form-right">
+                                <input class="txtbox" type="text" name="fname" id="fd_name" size="20" required>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-left">
+                                <label><big>Email Address:</big></label>
+                            </div>
+                            <div class="form-right">
+                                <input class="txtbox" type="email" name="mail" id="fd_email" size="20" required>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-left">
+                                <label><big>Feedback:</big></label>
+                            </div>
+                            <div class="form-right">
+                                <textarea class="txtbox" rows="4" cols="50" name="feedback"></textarea>
+                            </div>
+                        </div>
+                        <div id="buttons">
+                            <input class="greenbtn" type="submit" value="Submit" id="add" />
+                            <input class="orangebtn" type="reset" value="Clear" id="clear" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <p style="color:#a0a0a0">&copy; SJCE - 2017 | <a class="link">Privacy</a> | <a class="link">Terms & Conditions</a></p>
+                </div>
+                <div class="col-md-6">
+                    <p style="color:#a0a0a0">**Social Icons Here**</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Custom jQueries -->
+        <script src="js/tabs.js"></script>
+        <script src="js/accordian.js"></script>
+
+    </div>
+</body>
+
+</html>
