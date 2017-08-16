@@ -1,0 +1,60 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: calc(25% - 15px); /* 0 width - change this with JavaScript */
+    position: relative; /* Stay in place */
+	float:left;
+    background-color: #bfbab0; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+	padding-bottom:20px;	/* Place content 60px from the top */
+	margin-left:15px;
+	margin-bottom:15px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	color: #fff;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 0 12px 0 #666;
+	-moz-box-shadow: 0 0 12px 0 #666;
+	box-shadow: 0 0 12px 0 #666;
+}
+
+/* The navigation menu links */
+.sidenav-item{
+	padding: 8px 8px 8px 22px;
+    text-transform: uppercase;
+    font-size: 14px;
+	font-weight:200;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+	border-bottom: 1px solid #999;
+}
+
+.sidenav-item:hover{
+	background: #000;
+	color:#eeeeee !important;
+	cursor:pointer;
+}
+
+.sidenav>a{
+    padding: 8px 8px 8px 22px;
+    text-transform: uppercase;
+    font-size: 14px;
+	font-weight:200;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+	border-bottom: 1px solid #999;
+}
+
+.sidenav>a:hover{
+	background: #000;
+	color:#eeeeee !important;
+	font-weight:500 !important;
+}
+
+.sidenav-active{
+	background: #677db7;
+	color:#fff !important;
+	font-weight:500 !important;
+	border-right: 5px solid #fff;
+}
